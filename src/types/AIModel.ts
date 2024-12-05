@@ -15,3 +15,8 @@ export type FilterState = {
   access: string;
   capabilities: string[];
 };
+
+export type SortConfig = {
+  key: keyof AIModel | '';
+  direction: 'asc' | 'desc';
+};
